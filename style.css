@@ -146,8 +146,6 @@ form button i{
     height: auto;
     mix-blend-mode: multiply; 
 }
-
-/* ===== Large Desktops / Big Screens ===== */
 @media (min-width: 1440px) {
     form{
         width: 800px;
@@ -165,8 +163,6 @@ form button i{
         padding: 12px 18px;
     }
 }
-
-/* ===== Tablets / Medium Screens ===== */
 @media (max-width: 1024px) {
     form{
         width: 600px;
@@ -175,8 +171,6 @@ form button i{
         max-width: 240px;
     }
 }
-
-/* ===== Tablets Portrait / Small Tablets ===== */
 @media (max-width: 768px) {
     .right{
         right: 16px;
@@ -200,8 +194,6 @@ form button i{
         top: calc(50% + 55px);
     }
 }
-
-/* ===== Mobile Landscape / Small Devices ===== */
 @media (max-width: 600px) {
     .right ul{
         gap: 6px;
@@ -231,8 +223,6 @@ form button i{
         font-size: 13px;
     }
 }
-
-/* ===== Mobile Portrait / Extra Small Devices ===== */
 @media (max-width: 480px) {
     .right {
         right: 10px; 
@@ -275,8 +265,6 @@ form button i{
         font-size: 11px;
     }
 }
-
-/* ===== Very Small Devices (e.g., older small phones) ===== */
 @media (max-width: 360px) {
     .right ul{
         gap: 4px;
@@ -314,8 +302,6 @@ form button i{
         font-size: 10px;
     }
 }
-
-/* ===== Landscape orientation on short screens ===== */
 @media (max-height: 480px) and (orientation: landscape) {
     .image {
         top: 30%;
